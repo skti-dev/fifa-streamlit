@@ -2,7 +2,7 @@
 
 Projeto simples para consolidar conhecimentos de Python + Streamlit
 
-![Clique para visitar](https://augusto-fifa-dash.streamlit.app/)
+[Clique para visitar](https://augusto-fifa-dash.streamlit.app/)
 
 ![1748032123566](image/README/1748032123566.png)
 
