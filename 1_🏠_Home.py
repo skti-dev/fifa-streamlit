@@ -1,5 +1,4 @@
 import streamlit as st
-import webbrowser
 from utils import setup_sidebar
 
 st.set_page_config(
@@ -10,9 +9,7 @@ st.set_page_config(
 st.markdown('# FIFA 2023 - Official Dataset ⚽️')
 setup_sidebar(has_divider=False)
 
-btn = st.button('Acesse os dados no Kaggle')
-if btn:
-  webbrowser.open_new_tab('https://www.kaggle.com/datasets/kevwesophia/fifa23-official-datasetclean-data')
+btn = st.link_button(label='Acesse os dados no Kaggle', url='https://www.kaggle.com/datasets/kevwesophia/fifa23-official-datasetclean-data')
   
 st.markdown(
   """
